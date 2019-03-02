@@ -1,0 +1,1 @@
+{"name": "Odometer Fraud Checker", "description": "This django application was built with Crowdbotics www.crowdbotics.com", "repository": "https://github.com/crowdbotics-apps/odometer-fraud-check-1149", "keywords": ["web", "django"], "env": {"DEBUG_COLLECTSTATIC": "1"}, "addons": ["heroku-postgresql:hobby-dev", "sendgrid:starter"], "scripts": {"postdeploy": "./postdeploy.sh"}}
